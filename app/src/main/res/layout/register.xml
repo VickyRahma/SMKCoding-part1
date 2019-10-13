@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:background="@drawable/bggradient"
+
+>
+
+    <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            android:text="@string/label7"
+
+            android:textSize="35sp"
+
+            android:id="@+id/register"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_centerHorizontal="true" />
+
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="70dp"
+
+            android:textColor="#000000"
+
+            android:id="@+id/nama"
+
+            android:text="@string/label5"
+
+            android:textSize="20sp"/>
+
+    <EditText
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:inputType="text"
+
+            android:autofillHints="name"
+
+            android:paddingTop="70dp"
+
+            android:textSize="25sp"
+
+            android:id="@+id/editName"
+
+            android:layout_below="@+id/textView"
+
+            android:layout_marginTop="30dp"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+
+            android:hint="@string/label6" tools:ignore="UnusedAttribute"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="145dp"
+
+            android:textColor="#000000"
+
+            android:id="@+id/textView3"
+
+            android:text="@string/label1"
+
+            android:textSize="20sp"/>
+
+
+
+    <EditText
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:inputType="text"
+
+            android:autofillHints="username"
+
+            android:paddingTop="70dp"
+
+            android:textSize="25sp"
+
+            android:id="@+id/editUser"
+
+            android:layout_below="@+id/textView"
+
+            android:layout_marginTop="100dp"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+
+            android:hint="@string/label3" tools:ignore="UnusedAttribute"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="220dp"
+
+            android:textColor="#000000"
+
+            android:id="@+id/textView4"
+
+            android:text="@string/label2"
+
+            android:textSize="20sp"/>
+
+
+
+    <EditText
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:inputType="textPassword"
+
+            android:autofillHints="username"
+
+            android:paddingTop="30dp"
+
+            android:textSize="25sp"
+
+            android:id="@+id/editPass"
+
+            android:layout_below="@+id/editUser"
+
+            android:layout_marginTop="5dp"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+
+            android:hint="@string/label4" tools:ignore="UnusedAttribute"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="320dp"
+
+            android:text="@string/label8"
+
+            android:textColor="#000000"
+
+            android:textSize="20sp"/>
+
+
+
+    <Button
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="120dp"
+
+            android:layout_marginLeft="130dp"
+
+            android:layout_marginStart="130dp"
+
+            android:background="#A1CDF0"
+
+            android:textSize="17sp"
+
+            android:text="@string/label7"
+
+            android:id="@+id/btnRegister"
+
+            android:layout_below="@+id/editPass"
+
+            android:onClick="register"
+
+    />
+
+
+
+    <Button
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+
+            android:textSize="17sp"
+
+            android:background="#A1CDF0"
+
+            android:text="@string/bt3"
+
+            android:id="@+id/btnCancel"
+
+            android:layout_below="@+id/btnRegister"
+
+            android:layout_alignRight="@+id/btnRegister"
+
+            android:layout_alignEnd="@+id/btnRegister"
+
+            android:layout_alignLeft="@+id/btnRegister"
+
+            android:layout_alignStart="@+id/btnRegister"/>
+
+    <RadioGroup
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/radioGroup"
+
+            android:layout_marginTop="27dp"
+
+            android:layout_marginLeft="80dp"
+
+            android:layout_below="@+id/editPass" android:layout_marginStart="80dp">
+
+        <RadioButton
+                android:id="@+id/radioGuru"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:checked="false"
+
+                android:text="@string/radio_guru" />
+
+        <RadioButton
+                android:id="@+id/radioSiswa"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:checked="false"
+
+                android:text="@string/radio_siswa" />
+    </RadioGroup>
+
+
+
+</RelativeLayout>

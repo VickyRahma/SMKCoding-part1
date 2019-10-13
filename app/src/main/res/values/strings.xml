@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">e-magang</string>
+    <string name="title">LOGIN</string>
+    <string name="label1">Username</string>
+    <string name="label2">Password</string>
+    <string name="label3">Enter Username</string>
+    <string name="label4">Enter Password</string>
+    <string name="label5">Name</string>
+    <string name="label6">Enter Full Name</string>
+    <string name="label7">REGISTER</string>
+    <string name="label8">As a</string>
+    <string name="bt1">Login</string>
+    <string name="bt2">Register</string>
+    <string name="bt3">Cancel</string>
+    <string name="logo">Logo E - Magang</string>
+    <string name="radio_guru">Teacher</string>
+    <string name="radio_siswa">Student</string>
+</resources>
